@@ -1,0 +1,9 @@
+let run1 = parseInt(document.getElementById("run-1").textContent);
+let run2 = parseInt(document.getElementById("run-2").textContent);
+let run3 = parseInt(document.getElementById("run-3").textContent);
+let run4 = parseInt(document.getElementById("run-4").textContent);
+let run5 = parseInt(document.getElementById("run-5").textContent);
+let run6 = parseInt(document.getElementById("run-6").textContent);
+let extra= parseInt(document.getElementById("extra").textContent);
+let tot = run1+run2+run3+run4+run5+run6+extra;
+document.getElementById("total").textContent = tot;
